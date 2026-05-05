@@ -1,0 +1,39 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f5;
+}
+
+.app-header {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.app-header h1 {
+  margin: 0 0 20px 0;
+  font-size: 32px;
+  color: #333;
+}
+
+.app-main {
+  flex: 1;
+  padding: 20px 0;
+}
+
+.no-results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.no-results p {
+  font-size: 18px;
+  color: #666;
+}
+
